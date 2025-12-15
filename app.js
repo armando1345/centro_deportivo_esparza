@@ -95,9 +95,9 @@ function closeThankYouModal() {
 
 // Copiar al portapapeles
 function copyToClipboard() {
-    const iban = 'CR98015108880000000000';
+    const account = '34140100032769';
 
-    navigator.clipboard.writeText(iban).then(() => {
+    navigator.clipboard.writeText(account).then(() => {
         const iconCopy = document.getElementById('icon-copy');
         const iconCheck = document.getElementById('icon-check');
         const msg = document.getElementById('copy-msg');
